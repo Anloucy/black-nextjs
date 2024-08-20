@@ -6,9 +6,9 @@ const nextConfig = {
       protocol: 'https',
       hostname: 'store.storeimages.cdn-apple.com',
       port: '',
-      pathname: '/**',
+      pathname: '**',
     }],
   },
 }
 
-module.exports = nextConfig
+export default nextConfig
